@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608133460140' stop='1608133463083'>
+    <name>Add a customer</name>
+    <title>Add a customer</title>
+    <test-cases>
+        <test-case start='1608133460158' status='passed' stop='1608133463062'>
+            <name>Verify the successful addition of a customer</name>
+            <title>Verify the successful addition of a customer</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

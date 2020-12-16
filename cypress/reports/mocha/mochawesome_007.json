@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-16T15:21:35.686Z",
+    "end": "2020-12-16T15:21:38.728Z",
+    "duration": 3042,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "41e0d1ae-b138-4d3e-a246-604a93ba2a54",
+      "title": "",
+      "fullFile": "cypress/integration/testcases/TC2-AddCustomerTest.spec.js",
+      "file": "cypress/integration/testcases/TC2-AddCustomerTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "068f75da-7c9e-4a9c-b6cd-b4493480dad5",
+          "title": "Add a customer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify the successful addition of a customer",
+              "fullTitle": "Add a customer Verify the successful addition of a customer",
+              "timedOut": null,
+              "duration": 3001,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "addCustomerPage.addCustomerWithAllDetails(data.firstname, data.lastname, data.postcode);\naddCustomerPage.validateAlertMessage(data.custmsg);",
+              "err": {},
+              "uuid": "f60fabea-fe17-495e-9f09-a34a4d57eb30",
+              "parentUUID": "068f75da-7c9e-4a9c-b6cd-b4493480dad5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f60fabea-fe17-495e-9f09-a34a4d57eb30"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3001,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "/home/pad/Miha/cypress/PageObjectModel/cypress/reports/mocha",
+        "quite": true,
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

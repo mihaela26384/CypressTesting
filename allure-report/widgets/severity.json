@@ -1,0 +1,41 @@
+[ {
+  "uid" : "78fcf860540ccd03",
+  "name" : "Validate the title of the page",
+  "time" : {
+    "start" : 1608133453793,
+    "stop" : 1608133455409,
+    "duration" : 1616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87ed66f6eed5239a",
+  "name" : "Verify login as Bank Manager",
+  "time" : {
+    "start" : 1608133455423,
+    "stop" : 1608133456098,
+    "duration" : 675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8d575e4eb7c9445",
+  "name" : "Verify the successful opening of a new account",
+  "time" : {
+    "start" : 1608133467167,
+    "stop" : 1608133470824,
+    "duration" : 3657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f51c3eda4025a88c",
+  "name" : "Verify the successful addition of a customer",
+  "time" : {
+    "start" : 1608133460158,
+    "stop" : 1608133463062,
+    "duration" : 2904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

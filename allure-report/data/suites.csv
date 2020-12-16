@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 16 16:44:15 CET 2020","Wed Dec 16 16:44:16 CET 2020","675","","Login as Bank Manager","","Login as Bank Manager","Verify login as Bank Manager","Verify login as Bank Manager",""
+"passed","Wed Dec 16 16:44:20 CET 2020","Wed Dec 16 16:44:23 CET 2020","2904","","Add a customer","","Add a customer","Verify the successful addition of a customer","Verify the successful addition of a customer",""
+"passed","Wed Dec 16 16:44:13 CET 2020","Wed Dec 16 16:44:15 CET 2020","1616","","Login as Bank Manager","","Login as Bank Manager","Validate the title of the page","Validate the title of the page",""
+"passed","Wed Dec 16 16:44:27 CET 2020","Wed Dec 16 16:44:30 CET 2020","3657","","Add a Open one account","","Add a Open one account","Verify the successful opening of a new account","Verify the successful opening of a new account",""

@@ -1,0 +1,46 @@
+{
+  "uid" : "a8d575e4eb7c9445",
+  "name" : "Verify the successful opening of a new account",
+  "fullName" : "Add a Open one account.Verify the successful opening of a new account",
+  "historyId" : "34ae1a328cc32e5cceeb222c52f77817",
+  "time" : {
+    "start" : 1608133467167,
+    "stop" : 1608133470824,
+    "duration" : 3657
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Add a Open one account"
+  }, {
+    "name" : "testClass",
+    "value" : "Add a Open one account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the successful opening of a new account"
+  }, {
+    "name" : "package",
+    "value" : "Add a Open one account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8d575e4eb7c9445.json",
+  "parameterValues" : [ ]
+}

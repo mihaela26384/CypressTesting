@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test1": "echo \"Error: no test specified\" && exit 1",
-    "test_with_dashboard":"cypress run --browser chrome --record --key 597a07fb-500a-4846-8475-7dee9b301e9e",
+    "test_with_dashboard": "cypress run --browser chrome --record --key 597a07fb-500a-4846-8475-7dee9b301e9e",
+    "test_with_allure": "cypress run --browser chrome --reporter mocha-allure-reporter",
+    "generate-allurereports":"allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "run_tests_with_allure_reports": "npm run test_with_allure && npm run generate-allurereports",
     "launch_cypress": "./node_modules/.bin/cypress open",
     "execute_all_tests_headless": "./node_modules/.bin/cypress run",
     "execute_tests_from_one_suite_headless": "./node_modules/.bin/cypress run --spec ./cypress/integration/testcases/*.js",
@@ -20,16 +23,18 @@
     "combine-reports": "mochawesome-merge /home/pad/Miha/cypress/PageObjectModel/cypress/reports/mocha/*.json > /home/pad/Miha/cypress/PageObjectModel/cypress/reports/mochareports/report.json",
     "generate-report": "marge /home/pad/Miha/cypress/PageObjectModel/cypress/reports/mochareports/report.json -f report -o /home/pad/Miha/cypress/PageObjectModel/cypress/reports/mochareports",
     "posttest": "npm run combine-reports && npm run generate-report; chmod 777 -R /home/pad/Miha/cypress/PageObjectModel/cypress/reports",
-    "test" : "npm run scripts || npm run posttest"
+    "test": "npm run scripts || npm run posttest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^1.4.0",
+    "allure-commandline": "^2.13.0",
     "cypress": "^6.1.0",
     "cypress-file-upload": "^4.1.1",
     "cypress-multi-reporters": "^1.4.0",
     "cypress-xpath": "^1.6.1",
+    "mocha-allure-reporter": "^1.4.0",
     "mochawesome": "^6.2.1",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.1.0"

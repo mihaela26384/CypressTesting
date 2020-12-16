@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login as Bank Manager",
+    "children" : [ {
+      "name" : "Validate the title of the page",
+      "uid" : "78fcf860540ccd03",
+      "parentUid" : "87c694085574070b60ec9545c53c8854",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608133453793,
+        "stop" : 1608133455409,
+        "duration" : 1616
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify login as Bank Manager",
+      "uid" : "87ed66f6eed5239a",
+      "parentUid" : "87c694085574070b60ec9545c53c8854",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608133455423,
+        "stop" : 1608133456098,
+        "duration" : 675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "87c694085574070b60ec9545c53c8854"
+  }, {
+    "name" : "Add a customer",
+    "children" : [ {
+      "name" : "Verify the successful addition of a customer",
+      "uid" : "f51c3eda4025a88c",
+      "parentUid" : "7db45c508d8ee2b3dbfe655a50536f87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608133460158,
+        "stop" : 1608133463062,
+        "duration" : 2904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7db45c508d8ee2b3dbfe655a50536f87"
+  }, {
+    "name" : "Add a Open one account",
+    "children" : [ {
+      "name" : "Verify the successful opening of a new account",
+      "uid" : "a8d575e4eb7c9445",
+      "parentUid" : "cca3e25a3dfcccd35fae80325d2261c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608133467167,
+        "stop" : 1608133470824,
+        "duration" : 3657
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cca3e25a3dfcccd35fae80325d2261c4"
+  } ]
+}

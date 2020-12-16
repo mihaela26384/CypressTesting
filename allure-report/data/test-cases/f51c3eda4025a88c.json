@@ -1,0 +1,46 @@
+{
+  "uid" : "f51c3eda4025a88c",
+  "name" : "Verify the successful addition of a customer",
+  "fullName" : "Add a customer.Verify the successful addition of a customer",
+  "historyId" : "c58ebd30ed314d7dafdd3580edd9ece0",
+  "time" : {
+    "start" : 1608133460158,
+    "stop" : 1608133463062,
+    "duration" : 2904
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Add a customer"
+  }, {
+    "name" : "testClass",
+    "value" : "Add a customer"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the successful addition of a customer"
+  }, {
+    "name" : "package",
+    "value" : "Add a customer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f51c3eda4025a88c.json",
+  "parameterValues" : [ ]
+}

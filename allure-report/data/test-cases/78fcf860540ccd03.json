@@ -1,0 +1,46 @@
+{
+  "uid" : "78fcf860540ccd03",
+  "name" : "Validate the title of the page",
+  "fullName" : "Login as Bank Manager.Validate the title of the page",
+  "historyId" : "39f53cb3ea5bcb717cad7d426104c0de",
+  "time" : {
+    "start" : 1608133453793,
+    "stop" : 1608133455409,
+    "duration" : 1616
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login as Bank Manager"
+  }, {
+    "name" : "testClass",
+    "value" : "Login as Bank Manager"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate the title of the page"
+  }, {
+    "name" : "package",
+    "value" : "Login as Bank Manager"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78fcf860540ccd03.json",
+  "parameterValues" : [ ]
+}
