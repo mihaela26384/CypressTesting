@@ -1,0 +1,17 @@
+{
+  "chromeWebSecurity": false,
+  "baseUrl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "/home/pad/Miha/cypress/PageObjectModel/cypress/reports/mocha",
+      "quite": true,
+      "charts": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
+  "projectId": "fpthkn"
+}

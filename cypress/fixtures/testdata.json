@@ -1,0 +1,10 @@
+{
+    "firstname": "Adelina",
+    "lastname" : "Gruia",
+    "postcode" : "123456",
+    "custmsg" : "Customer added successfully ",
+    "customer" :"Adelina Gruia",
+    "currency" : "Pound",
+    "accountmsg" : "Account created successfully "
+
+}

@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-16T11:55:40.075Z",
+    "end": "2020-12-16T11:55:42.450Z",
+    "duration": 2375,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "34c385b0-b790-466f-b441-fa3f8211a737",
+      "title": "",
+      "fullFile": "cypress/integration/testcases/TC1-BankManagerLoginTest.spec.js",
+      "file": "cypress/integration/testcases/TC1-BankManagerLoginTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "17b8774d-9581-4faa-986d-71e011941c07",
+          "title": "Login as Bank Manager",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate the title of the page",
+              "fullTitle": "Login as Bank Manager Validate the title of the page",
+              "timedOut": null,
+              "duration": 1586,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.validateTitle().should('eq', 'Protractor practice website - Banking App');",
+              "err": {},
+              "uuid": "218cf6e2-53ab-432e-af9e-93145b78d9b6",
+              "parentUUID": "17b8774d-9581-4faa-986d-71e011941c07",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify login as Bank Manager",
+              "fullTitle": "Login as Bank Manager Verify login as Bank Manager",
+              "timedOut": null,
+              "duration": 742,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();",
+              "err": {},
+              "uuid": "3abf87fb-edd3-4f6f-befc-a687d903bf88",
+              "parentUUID": "17b8774d-9581-4faa-986d-71e011941c07",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "218cf6e2-53ab-432e-af9e-93145b78d9b6",
+            "3abf87fb-edd3-4f6f-befc-a687d903bf88"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2328,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "/home/pad/Miha/cypress/PageObjectModel/cypress/reports/mocha",
+        "quite": true,
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
